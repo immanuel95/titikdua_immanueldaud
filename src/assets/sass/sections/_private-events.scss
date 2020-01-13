@@ -1,0 +1,21 @@
+.pirvate-events-wrapper {
+  height: 39rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  padding-left: 150px;
+  padding-right: 0px;
+  margin-bottom: 0px;
+  background-color: #f6f5f0;
+}
+
+@media (max-width: 991px) {
+  .pirvate-events-wrapper {
+    height: 39rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    padding-left: 20px;
+    margin-bottom: 300px;
+    padding-right: 20px;
+    background-color: #f6f5f0;
+  }
+}

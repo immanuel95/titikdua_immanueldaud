@@ -1,0 +1,93 @@
+.barcoffee {
+  width: 100%;
+  height: 500px;
+  background-color: #333333;
+}
+
+.cocktail-image {
+  width: 390;
+  height: 355px;
+  margin-top: -150px;
+  margin-bottom: 57px;
+}
+
+.coffee-image {
+  width: 332px;
+  height: 330px;
+  margin-left: 80px;
+}
+
+.barcoffee-content-wrapper {
+  padding-top: 140px;
+  padding-left: 142px !important;
+}
+
+.barcoffee-content-width {
+  width: 555px;
+}
+
+@media (max-width: 1035px) {
+  .barcoffee-content-width {
+    width: 100%;
+  }
+}
+
+@media (max-width: 769px) {
+  .barcoffee {
+    width: 100%;
+    height: 1000px;
+    background-color: #333333;
+  }
+
+  .cocktail-image {
+    width: 390px;
+    height: 355px;
+    margin-top: -150px;
+    margin-bottom: 57px;
+  }
+
+  .coffee-image {
+    width: 332px;
+    height: 330px;
+    margin-left: 80px;
+  }
+
+  .barcoffee-content-wrapper {
+    padding-top: 40px;
+    padding-left: 20px !important;
+  }
+
+  .barcoffee-content-width {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .barcoffee {
+    width: 100%;
+    height: 1000px;
+    background-color: #333333;
+  }
+
+  .cocktail-image {
+    width: 240px;
+    height: 218px;
+    margin-top: -150px;
+    margin-bottom: 57px;
+  }
+
+  .coffee-image {
+    width: 204px;
+    height: 204px;
+    margin-left: 80px;
+  }
+
+  .barcoffee-content-wrapper {
+    padding-top: 40px;
+    padding-left: 20px !important;
+  }
+
+  .barcoffee-content-width {
+    width: 100%;
+  }
+}

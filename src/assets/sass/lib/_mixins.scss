@@ -1,0 +1,7 @@
+@mixin flex-content-center($height, $flex-direction) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: $height;
+  flex-direction: $flex-direction;
+}

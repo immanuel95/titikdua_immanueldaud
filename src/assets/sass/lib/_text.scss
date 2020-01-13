@@ -1,0 +1,68 @@
+.title {
+  font-size: 36px;
+  letter-spacing: 6px;
+  font-weight: 200;
+  line-height: 48px;
+}
+
+.title-light {
+  font-size: 36px;
+  letter-spacing: 6px;
+  font-weight: 200;
+  line-height: 48px;
+  color: #ffffff;
+}
+
+.text-content {
+  font-size: 16;
+  line-height: 28px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.text-content-light {
+  font-size: 16;
+  line-height: 28px;
+  font-weight: 100;
+  color: #ffffff;
+}
+
+.view-details {
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+
+.right-arrow {
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 991px) {
+  p.title {
+    font-size: 24px;
+    letter-spacing: 4px;
+    font-weight: 300;
+    line-height: 32px;
+  }
+
+  p.title-light {
+    font-size: 24px;
+    letter-spacing: 4px;
+    font-weight: 300;
+    line-height: 32px;
+    color: #ffffff;
+  }
+
+  p.text-content {
+    font-size: 14;
+    font-weight: 100;
+    line-height: 26px;
+  }
+
+  p.text-content-light {
+    font-size: 14;
+    font-weight: 100;
+    line-height: 26px;
+    color: #ffffff;
+  }
+}

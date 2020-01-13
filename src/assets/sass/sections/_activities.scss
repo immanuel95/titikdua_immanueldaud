@@ -1,0 +1,122 @@
+.activities {
+  width: 100%;
+  height: 967px;
+  background-color: #f7f7f7;
+  padding-top: 90px;
+  padding-left: 154px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.subtitle-wrapper {
+  margin-top: 16px;
+  margin-bottom: 32px;
+  width: 555px;
+}
+
+.activities-image {
+  position: relative;
+}
+
+.activity-details-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  height: 180px;
+  width: 292px;
+  z-index: 2;
+  background-color: white;
+  padding-left: 30px;
+}
+
+.activity-name {
+  color: black;
+  font-size: 24px;
+  letter-spacing: 4px;
+}
+
+.activity-desc {
+  opacity: 0.5;
+  font-size: 14px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 22px;
+  width: 232px;
+}
+
+@media (max-width: 1150px) {
+  .activity-details-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    height: 140px;
+    width: 252px;
+    z-index: 2;
+    background-color: white;
+    padding-left: 30px;
+  }
+
+  .activity-name {
+    color: black;
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+
+  .activity-desc {
+    opacity: 0.5;
+    font-size: 10px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 10px;
+    width: 132px;
+  }
+}
+
+@media (max-width: 991px) {
+  .activities {
+    width: 100%;
+    height: 967px;
+    background-color: #f7f7f7;
+    padding-top: 90px;
+    padding-left: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .subtitle-wrapper {
+    margin-top: 16px;
+    margin-bottom: 32px;
+    width: 100%;
+  }
+
+  .activity-details-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    height: 160px;
+    width: 212px;
+    z-index: 2;
+    background-color: white;
+    padding-left: 30px;
+  }
+
+  .activity-name {
+    color: black;
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+
+  .activity-desc {
+    opacity: 0.5;
+    font-size: 10px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 10px;
+    width: 132px;
+  }
+}
