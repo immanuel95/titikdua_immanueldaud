@@ -9,7 +9,6 @@
 
 .pattern-1-image {
   max-width: 116%;
-  min-width: 357.5px;
   margin-left: 60px;
   margin-bottom: 0px;
 }
@@ -43,13 +42,13 @@ p.pattern-1-content {
     height: 39rem;
     padding-top: 6rem;
     padding-bottom: 6rem;
-    padding-left: 20px;
+    padding-left: 0px;
     margin-bottom: 300px;
-    padding-right: 20px;
+    padding-right: 0px;
   }
 
   .pattern-1-image {
-    min-width: 357.5px;
+    min-width: 100%;
     margin-left: 0px;
     margin-bottom: 32px;
   }

@@ -138,7 +138,7 @@ const App = () => {
       <section className="pattern-1-wrapper">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-lg-6 col-sm-12 pattern1-content-order d-flex justify-content-center flex-column">
+            <div className="col-lg-6 col-md-12 col-sm-12 pattern1-content-order d-flex justify-content-center flex-column">
               <p className="title">stay in the moment</p>
               <p className="text-content">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -154,7 +154,7 @@ const App = () => {
                 </span>
               </p>
             </div>
-            <div className="col-lg-6 col-sm-12 pattern1-image-order">
+            <div className="col-lg-6 col-md-12 col-sm-12 pattern1-image-order">
               <img alt="about" src={stay} className="stay-image fade-in" />
             </div>
           </div>

@@ -16,6 +16,7 @@
 }
 
 .activities-image {
+  max-width: 100%;
   position: relative;
 }
 
@@ -118,5 +119,10 @@
     letter-spacing: 0;
     line-height: 10px;
     width: 132px;
+  }
+
+  .activities-image {
+    max-width: 360px;
+    position: relative;
   }
 }
