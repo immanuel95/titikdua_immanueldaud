@@ -9,6 +9,7 @@
   height: 355px;
   margin-top: -150px;
   margin-bottom: 57px;
+  margin-left: 0px;
 }
 
 .coffee-image {
@@ -62,10 +63,10 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .barcoffee {
     width: 100%;
-    height: 1000px;
+    height: 600px;
     background-color: #333333;
   }
 
@@ -74,12 +75,13 @@
     height: 218px;
     margin-top: -150px;
     margin-bottom: 57px;
+    margin-left: -40px;
   }
 
   .coffee-image {
     width: 204px;
     height: 204px;
-    margin-left: 80px;
+    margin-left: 0px;
   }
 
   .barcoffee-content-wrapper {

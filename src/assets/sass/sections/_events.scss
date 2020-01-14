@@ -1,4 +1,4 @@
-.pattern-2 {
+.events {
   height: 650px;
   margin-top: 100px;
   background-position: center center;
@@ -23,7 +23,7 @@
   margin-top: 50px;
 }
 
-.pattern-2-content {
+.events-content {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -31,7 +31,8 @@
   margin-bottom: 70px;
 }
 
-.pattern2-arrow-background {
+.next-arrow-wrapper,
+.prev-arrow-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,7 +43,7 @@
   margin-bottom: 32px;
 }
 
-.pattern-2-arrow {
+.events-arrow {
   height: 32px;
   width: 32px;
 }
@@ -57,6 +58,52 @@
   margin-right: -15px;
 }
 
+.control-next {
+  position: absolute;
+  top: 450px;
+  z-index: 1;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 15%;
+  color: #fff;
+  text-align: center;
+  opacity: 0.7;
+  transition: opacity 0.15s ease;
+  right: 0;
+  &:hover {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    opacity: 1;
+  }
+}
+
+.control-prev {
+  position: absolute;
+  top: 370px;
+  z-index: 1;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 15%;
+  color: #fff;
+  text-align: center;
+  opacity: 0.7;
+  transition: opacity 0.15s ease;
+  right: 0;
+  &:hover {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    opacity: 1;
+  }
+}
+
 @media (max-width: 1157px) {
   .event-wrapper {
     width: 500px;
@@ -69,10 +116,10 @@
   }
 }
 
-@media (max-width: 991px) {
-  .pattern-2 {
+@media (max-width: 992px) {
+  .events {
     height: 500px;
-    margin-top: 100px;
+    margin-top: 80px;
     background-image: url("../../images/chef-1.png");
     background-position: center center;
     background-size: cover;
@@ -83,10 +130,10 @@
     margin-top: 0px;
   }
 
-  .pattern-2-content {
+  .events-content {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     padding-left: 30px !important;
     margin-bottom: 70px;
   }
@@ -101,7 +148,8 @@
     margin-right: 0px;
   }
 
-  .pattern2-arrow-background {
+  .next-arrow-wrapper,
+  .prev-arrow-wrapper {
     display: none;
     justify-content: center;
     align-items: center;
@@ -113,14 +161,14 @@
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .event-wrapper {
     width: 100%;
-    height: 80px;
+    height: 130px;
     padding-left: 30px;
     padding-right: 153px;
     background-color: #ffffff;
-    margin-top: 0px;
+    margin-top: 70px;
     margin-right: 0px;
   }
 }
