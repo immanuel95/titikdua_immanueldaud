@@ -19,6 +19,7 @@ const scrollToRef = ref =>
 const App = () => {
   const myRef = useRef(null);
 
+  //renders
   return (
     <>
       <Header scrollToRef={() => scrollToRef(myRef)} />
